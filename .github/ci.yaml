@@ -1,0 +1,15 @@
+name: CI - Hello World
+
+on:
+  push:
+    branches:
+      - "feature/**"
+
+jobs:
+  ci-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello from CI
+        run: echo "👋 Hello World from CI Pipeline"
+
