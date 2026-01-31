@@ -2,8 +2,8 @@ name: CD - Hello World (Dev)
 
 on:
   push:
-#    branches:
-#      - develop
+    branches:
+      - develop
 
 jobs:
   cd-job:

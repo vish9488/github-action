@@ -1,7 +1,6 @@
 name: CI - Hello World
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - "feature/**"
